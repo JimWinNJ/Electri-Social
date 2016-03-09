@@ -1,0 +1,6 @@
+framework module Pods_electri_social {
+  umbrella header "Pods-electri-social-umbrella.h"
+
+  export *
+  module * { export * }
+}

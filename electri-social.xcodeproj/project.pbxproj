@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9F43B08048573F30E6CFB02 /* Pods_electri_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F485D0DC736999439CD903E /* Pods_electri_social.framework */; };
 		BAB757101C8F7AAA00F7A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */; };
 		BAB757121C8F7AAA00F7A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB757111C8F7AAA00F7A7EB /* ViewController.swift */; };
 		BAB757151C8F7AAA00F7A7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB757131C8F7AAA00F7A7EB /* Main.storyboard */; };
@@ -20,9 +21,14 @@
 		BAB757311C8F84F000F7A7EB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB757301C8F84F000F7A7EB /* Constants.swift */; };
 		BAB757331C8F90CD00F7A7EB /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB757321C8F90CD00F7A7EB /* MaterialButton.swift */; };
 		BAB757351C8F9BA800F7A7EB /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB757341C8F9BA800F7A7EB /* MaterialTextField.swift */; };
+		BAB7573A1C90323F00F7A7EB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB757371C90323F00F7A7EB /* Bolts.framework */; };
+		BAB7573B1C90323F00F7A7EB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB757381C90323F00F7A7EB /* FBSDKCoreKit.framework */; };
+		BAB7573C1C90323F00F7A7EB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB757391C90323F00F7A7EB /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CB5E55620CD9FCABADEA686 /* Pods-electri-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-electri-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-electri-social/Pods-electri-social.debug.xcconfig"; sourceTree = "<group>"; };
+		6F485D0DC736999439CD903E /* Pods_electri_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_electri_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB7570C1C8F7AAA00F7A7EB /* electri-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "electri-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB757111C8F7AAA00F7A7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,10 @@
 		BAB757301C8F84F000F7A7EB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BAB757321C8F90CD00F7A7EB /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		BAB757341C8F9BA800F7A7EB /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		BAB757371C90323F00F7A7EB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BAB757381C90323F00F7A7EB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		BAB757391C90323F00F7A7EB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EDAE2470BB0C2A2FF25E494E /* Pods-electri-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-electri-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-electri-social/Pods-electri-social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +55,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB7573A1C90323F00F7A7EB /* Bolts.framework in Frameworks */,
+				BAB7573B1C90323F00F7A7EB /* FBSDKCoreKit.framework in Frameworks */,
+				BAB7573C1C90323F00F7A7EB /* FBSDKLoginKit.framework in Frameworks */,
+				A9F43B08048573F30E6CFB02 /* Pods_electri_social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		596491C9E8E47D3217387CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5E55620CD9FCABADEA686 /* Pods-electri-social.debug.xcconfig */,
+				EDAE2470BB0C2A2FF25E494E /* Pods-electri-social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BAB757031C8F7AAA00F7A7EB = {
 			isa = PBXGroup;
 			children = (
 				BAB7570E1C8F7AAA00F7A7EB /* electri-social */,
 				BAB7570D1C8F7AAA00F7A7EB /* Products */,
+				596491C9E8E47D3217387CEA /* Pods */,
+				D9A4A2CD8A04E18214D6B8A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +95,7 @@
 		BAB7570E1C8F7AAA00F7A7EB /* electri-social */ = {
 			isa = PBXGroup;
 			children = (
+				BAB757361C90321800F7A7EB /* Frameworks */,
 				BAB7572F1C8F84CF00F7A7EB /* Util */,
 				BAB757241C8F7ADA00F7A7EB /* Resources */,
 				BAB757231C8F7AD300F7A7EB /* Model */,
@@ -128,6 +154,24 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		BAB757361C90321800F7A7EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAB757371C90323F00F7A7EB /* Bolts.framework */,
+				BAB757381C90323F00F7A7EB /* FBSDKCoreKit.framework */,
+				BAB757391C90323F00F7A7EB /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A4A2CD8A04E18214D6B8A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F485D0DC736999439CD903E /* Pods_electri_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAB7571E1C8F7AAA00F7A7EB /* Build configuration list for PBXNativeTarget "electri-social" */;
 			buildPhases = (
+				666C0AD954F449A36D27E393 /* Check Pods Manifest.lock */,
 				BAB757081C8F7AAA00F7A7EB /* Sources */,
 				BAB757091C8F7AAA00F7A7EB /* Frameworks */,
 				BAB7570A1C8F7AAA00F7A7EB /* Resources */,
+				F8CE784D164F9D4ABB711078 /* Embed Pods Frameworks */,
+				0C5EE111AB021E19A7A5B428 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +245,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C5EE111AB021E19A7A5B428 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-electri-social/Pods-electri-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		666C0AD954F449A36D27E393 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CE784D164F9D4ABB711078 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-electri-social/Pods-electri-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAB757081C8F7AAA00F7A7EB /* Sources */ = {
@@ -320,8 +415,14 @@
 		};
 		BAB7571F1C8F7AAA00F7A7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB5E55620CD9FCABADEA686 /* Pods-electri-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/electri-social",
+				);
 				INFOPLIST_FILE = "electri-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stateexampass.electri-social";
@@ -331,8 +432,14 @@
 		};
 		BAB757201C8F7AAA00F7A7EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDAE2470BB0C2A2FF25E494E /* Pods-electri-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/electri-social",
+				);
 				INFOPLIST_FILE = "electri-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stateexampass.electri-social";
@@ -359,6 +466,7 @@
 				BAB757201C8F7AAA00F7A7EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
