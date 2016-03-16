@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A9F43B08048573F30E6CFB02 /* Pods_electri_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F485D0DC736999439CD903E /* Pods_electri_social.framework */; };
 		BA12FEF01C90615A0087EB3B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12FEEF1C90615A0087EB3B /* DataService.swift */; };
+		BA6B00551C998B0500590E5B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00541C998B0500590E5B /* FeedVC.swift */; };
+		BA6B00571C998E5B00590E5B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00561C998E5B00590E5B /* PostCell.swift */; };
 		BAB757101C8F7AAA00F7A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */; };
 		BAB757121C8F7AAA00F7A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB757111C8F7AAA00F7A7EB /* ViewController.swift */; };
 		BAB757151C8F7AAA00F7A7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB757131C8F7AAA00F7A7EB /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		5CB5E55620CD9FCABADEA686 /* Pods-electri-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-electri-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-electri-social/Pods-electri-social.debug.xcconfig"; sourceTree = "<group>"; };
 		6F485D0DC736999439CD903E /* Pods_electri_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_electri_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA12FEEF1C90615A0087EB3B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BA6B00541C998B0500590E5B /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		BA6B00561C998E5B00590E5B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		BAB7570C1C8F7AAA00F7A7EB /* electri-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "electri-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB757111C8F7AAA00F7A7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 		BAB757211C8F7AC400F7A7EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BA6B00541C998B0500590E5B /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				BAB7572D1C8F847400F7A7EB /* MaterialView.swift */,
 				BAB757321C8F90CD00F7A7EB /* MaterialButton.swift */,
 				BAB757341C8F9BA800F7A7EB /* MaterialTextField.swift */,
+				BA6B00561C998E5B00590E5B /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -314,6 +320,8 @@
 				BA12FEF01C90615A0087EB3B /* DataService.swift in Sources */,
 				BAB7572E1C8F847400F7A7EB /* MaterialView.swift in Sources */,
 				BAB757121C8F7AAA00F7A7EB /* ViewController.swift in Sources */,
+				BA6B00551C998B0500590E5B /* FeedVC.swift in Sources */,
+				BA6B00571C998E5B00590E5B /* PostCell.swift in Sources */,
 				BAB757101C8F7AAA00F7A7EB /* AppDelegate.swift in Sources */,
 				BAB757311C8F84F000F7A7EB /* Constants.swift in Sources */,
 				BAB757331C8F90CD00F7A7EB /* MaterialButton.swift in Sources */,
