@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SEP-Logo-Stacked" translatesAutoresizingMaskIntoConstraints="NO" id="ocU-Tj-PIm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Electri-Social-Launch-1" translatesAutoresizingMaskIntoConstraints="NO" id="ocU-Tj-PIm">
                                 <rect key="frame" x="126" y="153" width="349" height="293"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="349" id="Xhb-B3-U48"/>
@@ -29,6 +29,8 @@
                         <constraints>
                             <constraint firstItem="ocU-Tj-PIm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="iGM-v3-UOQ"/>
                             <constraint firstItem="ocU-Tj-PIm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="jbg-Yo-Ezp"/>
+                            <constraint firstItem="ocU-Tj-PIm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="myF-IX-nVD"/>
+                            <constraint firstItem="ocU-Tj-PIm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wc2-kT-Rq1"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -38,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="SEP-Logo-Stacked" width="240" height="132"/>
+        <image name="Electri-Social-Launch-1" width="1024" height="775"/>
     </resources>
 </document>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A9F43B08048573F30E6CFB02 /* Pods_electri_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F485D0DC736999439CD903E /* Pods_electri_social.framework */; };
 		BA12FEF01C90615A0087EB3B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12FEEF1C90615A0087EB3B /* DataService.swift */; };
+		BA5FCFCC1C9D09E000E86D6A /* ShowSplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5FCFCB1C9D09E000E86D6A /* ShowSplashScreen.swift */; };
 		BA6B00551C998B0500590E5B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00541C998B0500590E5B /* FeedVC.swift */; };
 		BA6B00571C998E5B00590E5B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00561C998E5B00590E5B /* PostCell.swift */; };
 		BA6B00591C9B08DB00590E5B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00581C9B08DB00590E5B /* Post.swift */; };
@@ -34,6 +35,7 @@
 		5CB5E55620CD9FCABADEA686 /* Pods-electri-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-electri-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-electri-social/Pods-electri-social.debug.xcconfig"; sourceTree = "<group>"; };
 		6F485D0DC736999439CD903E /* Pods_electri_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_electri_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA12FEEF1C90615A0087EB3B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BA5FCFCB1C9D09E000E86D6A /* ShowSplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowSplashScreen.swift; sourceTree = "<group>"; };
 		BA6B00541C998B0500590E5B /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		BA6B00561C998E5B00590E5B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		BA6B00581C9B08DB00590E5B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				BAB757211C8F7AC400F7A7EB /* Controller */,
 				BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */,
 				BAB757111C8F7AAA00F7A7EB /* ViewController.swift */,
+				BA5FCFCB1C9D09E000E86D6A /* ShowSplashScreen.swift */,
 				BAB757131C8F7AAA00F7A7EB /* Main.storyboard */,
 				BAB757161C8F7AAA00F7A7EB /* Assets.xcassets */,
 				BAB757181C8F7AAA00F7A7EB /* LaunchScreen.storyboard */,
@@ -321,6 +324,7 @@
 			files = (
 				BAB757351C8F9BA800F7A7EB /* MaterialTextField.swift in Sources */,
 				BA12FEF01C90615A0087EB3B /* DataService.swift in Sources */,
+				BA5FCFCC1C9D09E000E86D6A /* ShowSplashScreen.swift in Sources */,
 				BAB7572E1C8F847400F7A7EB /* MaterialView.swift in Sources */,
 				BAB757121C8F7AAA00F7A7EB /* ViewController.swift in Sources */,
 				BA6B00551C998B0500590E5B /* FeedVC.swift in Sources */,
