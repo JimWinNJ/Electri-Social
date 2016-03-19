@@ -11,6 +11,7 @@
 		BA12FEF01C90615A0087EB3B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA12FEEF1C90615A0087EB3B /* DataService.swift */; };
 		BA6B00551C998B0500590E5B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00541C998B0500590E5B /* FeedVC.swift */; };
 		BA6B00571C998E5B00590E5B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00561C998E5B00590E5B /* PostCell.swift */; };
+		BA6B00591C9B08DB00590E5B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B00581C9B08DB00590E5B /* Post.swift */; };
 		BAB757101C8F7AAA00F7A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */; };
 		BAB757121C8F7AAA00F7A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB757111C8F7AAA00F7A7EB /* ViewController.swift */; };
 		BAB757151C8F7AAA00F7A7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB757131C8F7AAA00F7A7EB /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		BA12FEEF1C90615A0087EB3B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		BA6B00541C998B0500590E5B /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		BA6B00561C998E5B00590E5B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BA6B00581C9B08DB00590E5B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BAB7570C1C8F7AAA00F7A7EB /* electri-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "electri-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB757111C8F7AAA00F7A7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		BAB757231C8F7AD300F7A7EB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA6B00581C9B08DB00590E5B /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				BAB757101C8F7AAA00F7A7EB /* AppDelegate.swift in Sources */,
 				BAB757311C8F84F000F7A7EB /* Constants.swift in Sources */,
 				BAB757331C8F90CD00F7A7EB /* MaterialButton.swift in Sources */,
+				BA6B00591C9B08DB00590E5B /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
