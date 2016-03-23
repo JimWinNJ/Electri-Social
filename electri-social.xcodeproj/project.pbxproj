@@ -95,7 +95,7 @@
 		BAB757031C8F7AAA00F7A7EB = {
 			isa = PBXGroup;
 			children = (
-				BAB7570E1C8F7AAA00F7A7EB /* electri-social */,
+				BAB7570E1C8F7AAA00F7A7EB /*   */,
 				BAB7570D1C8F7AAA00F7A7EB /* Products */,
 				596491C9E8E47D3217387CEA /* Pods */,
 				D9A4A2CD8A04E18214D6B8A1 /* Frameworks */,
@@ -110,7 +110,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAB7570E1C8F7AAA00F7A7EB /* electri-social */ = {
+		BAB7570E1C8F7AAA00F7A7EB /*   */ = {
 			isa = PBXGroup;
 			children = (
 				BA12FEEE1C9060FC0087EB3B /* Services */,
@@ -121,6 +121,7 @@
 				BAB757221C8F7ACC00F7A7EB /* View */,
 				BAB757211C8F7AC400F7A7EB /* Controller */,
 				BAB7570F1C8F7AAA00F7A7EB /* AppDelegate.swift */,
+				BA6B00541C998B0500590E5B /* FeedVC.swift */,
 				BAB757111C8F7AAA00F7A7EB /* ViewController.swift */,
 				BA5FCFCB1C9D09E000E86D6A /* ShowSplashScreen.swift */,
 				BAB757131C8F7AAA00F7A7EB /* Main.storyboard */,
@@ -128,13 +129,13 @@
 				BAB757181C8F7AAA00F7A7EB /* LaunchScreen.storyboard */,
 				BAB7571B1C8F7AAA00F7A7EB /* Info.plist */,
 			);
+			name = " ";
 			path = "electri-social";
 			sourceTree = "<group>";
 		};
 		BAB757211C8F7AC400F7A7EB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BA6B00541C998B0500590E5B /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
