@@ -14,7 +14,7 @@ class ShowSplashScreen: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        performSelector(Selector("showNavController"), withObject: nil, afterDelay: 3)
+        performSelector(#selector(ShowSplashScreen.showNavController), withObject: nil, afterDelay: 3)
     }
     
     func showNavController()
